@@ -1,0 +1,119 @@
+VP4D.(none)')
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git commit -m "zahra-iykyk"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'USER@DESKTOP-7T1VP4D.(none)')
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git config --global user.name "Zahra Iykyk"
+git config --global user.email "zaraadls84.com"
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Zahra Iykyk
+user.email=zaraadls84.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/zahra-iykyk/zahradiva.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git config --global user.email "zaraadls84@gmail.com"
+git config --global user.name "Zahra Iykyk"
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Zahra Iykyk
+user.email=zaraadls84@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/zahra-iykyk/zahradiva.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git add README.md
+git commit -m "Zahra Iykyk"
+[main (root-commit) 868f563] Zahra Iykyk
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git push origin main
+fatal: User canceled device code authentication
+
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git push origin maingit push origin maingit push origin main
+error: src refspec maingit does not match any
+error: src refspec push does not match any
+error: src refspec origin does not match any
+error: src refspec maingit does not match any
+error: src refspec push does not match any
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://github.com/zahra-iykyk/zahradiva.git'
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/zahra-iykyk/zahradiva.git
+ * [new branch]      main -> main
+
+USER@DESKTOP-7T1VP4D MINGW64 ~/zahradiva (main)
+$
